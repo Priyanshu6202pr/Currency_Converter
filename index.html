@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+</head>
+
+<body>
+    <h1>Currency Converter</h1>
+    <div class="container">
+        <h2>Currency Converter Pro</h2>
+        
+        
+        <h5>Real Time Conversion</h5>
+        <form action="#" id="convertform">
+            <div>
+                
+
+                <label for="amount">Enter Amount:</label>
+                <input type="number" step="any" id="amount" min="0" required>
+
+                <br>
+                <!-- FROM -->
+                <label for="fromCurrency">From:</label>
+                <select id="fromCurrency" required>
+                <option value="" disabled selected>--Select Currency--</option>
+                </select>
+            
+                
+                <button type="button" id="swap">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                </button>
+
+
+                
+                <!-- TO -->
+                 <label for="toCurrency">To:</label>
+                 <select  id="toCurrency" required>
+                    <option value="" disabled selected>--Select Currency--</option>
+                 </select>
+                <br>
+                <button type="submit">Convert</button>
+
+
+            </div>
+            
+        </form>
+        <div id="result" aria-live="polite" ></div>
+
+        
+        
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
