@@ -5,6 +5,11 @@ The app fetches real-time exchange rates and allows users to convert between cur
 
 ---
 
+## Live Demo
+https://currency-converter-3kcpqy9w9-priyanshu-princes-projects.vercel.app
+
+---
+
 ## ✨ Features
 
 - 🌍 Dynamic currency list loaded from API  
